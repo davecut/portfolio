@@ -1,0 +1,39 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "hello_world": "Hello, {name} from fr!",
+    "home": "Home",
+    "projects": "Projets",
+    "about": "Qui suis-je?",
+    "contact": "Contact",
+
+    "home_hello": "Salut!",
+    "home_introduction": "Je suis Davide,",
+    "home_job": "un Développeur Web",
+    "home_description": "Avec une forte attention portée à l'architecture propre et à l'expérience utilisateur, je transforme les idées en solutions web robustes, évolutives et réutilisables.",
+
+    "about_developer_title": "Le développeur derrière le code",
+    "about_developer_1": "Issu d'un parcours en langues étrangères, j'ai découvert ma véritable passion dans le développement web, où se rencontrent logique, créativité et structure. Je suis particulièrement attiré par la création de solutions scalables, maintenables et réutilisables, avec une attention particulière portée à l'architecture propre et au code clair.",
+    "about_developer_2": "J'ai précédemment travaillé comme développeur backend, principalement avec PHP (Laravel), MySQL et Docker. En dehors de ce rôle (et encore plus aujourd'hui), j'aime explorer de nouvelles technologies, aussi bien côté frontend que backend.",
+    "about_developer_3": "Bien que mon parcours ait commencé côté backend, je développe un intérêt croissant pour le développement frontend, en expérimentant avec React, Vue, SvelteKit et en réalisant des maquettes simples avec Figma pour mes projets personnels.",
+    "about_developer_4": "Je cherche constamment à progresser, en organisant le code par responsabilité, en gardant les fonctions ciblées et en automatisant dès que possible.",
+    "about_stack_title": "Le code derrière le développeur",
+
+    "contact_title": "Contactez-moi",
+    "contact_name": "Nom",
+    "contact_email": "Email",
+    "contact_message": "Message",
+    "contact_send": "Envoyer",
+
+    "projects_title": "Mes Projets",
+    "projects_portfolio_description": "Mon parcours, mes projets, mon code",
+    "projects_evjf_description": "Mini-site visuel pour un jeu d'EVJF personnalisé",
+    "projects_finflow_description": "Suivi des finances personnelles et du budget",
+    "projects_view_github": "Voir sur GitHub",
+    "projects_status_wip": "En cours",
+    "projects_status_completed": "Terminé",
+
+    "error_not_found": "Oups! Je n'arrive pas à trouver cette page!",
+    "error_back_home": "Souhaitez-vous revenir à la page d'accueil?",
+    "error_generic": "Oups! Une erreur est survenue.",
+    "error_generic_retry": "Veuillez réessayer plus tard."
+}

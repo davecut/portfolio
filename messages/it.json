@@ -1,0 +1,39 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "hello_world": "Hello, {name} from it!",
+    "home": "Home",
+    "projects": "Progetti",
+    "about": "Chi sono",
+    "contact": "Contatti",
+
+    "home_hello": "Ciao!",
+    "home_introduction": "Sono Davide,",
+    "home_job": "uno Sviluppatore Web",
+    "home_description": "Con una forte attenzione all'architettura pulita e all'esperienza utente, trasformo le idee in soluzioni web robuste, scalabili e riutilizzabili.",
+
+    "about_developer_title": "Lo sviluppatore dietro il codice",
+    "about_developer_1": "Ho iniziato il mio percorso studiando lingue straniere, ma con il tempo ho scoperto una vera passione per lo sviluppo web, dove logica, creatività e struttura si incontrano. Mi appassiona costruire soluzioni scalabili, manutenibili e riutilizzabili, con un'attenzione particolare al codice pulito e a un'architettura chiara.",
+    "about_developer_2": "In passato ho lavorato come sviluppatore backend, soprattutto con PHP (Laravel), MySQL e Docker. Fuori da quell'ambito (e oggi più che mai) mi piace sperimentare nuove tecnologie, sia lato backend che frontend.",
+    "about_developer_3": "Anche se ho iniziato nel backend, sto sviluppando un interesse sempre più forte per il frontend, sperimentando con React, Vue, SvelteKit, e creando interfacce semplici con Figma per progetti personali.",
+    "about_developer_4": "Cerco sempre di migliorarmi, organizzando il codice in modo chiaro, mantenendo le funzioni focalizzate e automatizzando tutto ciò che è possibile.",
+    "about_stack_title": "Il codice dietro lo sviluppatore",
+
+    "contact_title": "Contattami",
+    "contact_name": "Nome",
+    "contact_email": "Email",
+    "contact_message": "Messaggio",
+    "contact_send": "Invia",
+
+    "projects_title": "I miei Progetti",
+    "projects_finflow_description": "Gestione delle finanze personali e del budget",
+    "projects_evjf_description": "Supporto visivo web per un gioco di addio al nubilato",
+    "projects_portfolio_description": "Il mio percorso, i miei progetti, il mio codice",
+    "projects_view_github": "Apri su GitHub",
+    "projects_status_wip": "In corso",
+    "projects_status_completed": "Terminato",
+
+    "error_not_found": "Ops! Non riesco a trovare questa pagina",
+    "error_back_home": "Vuoi tornare alla pagina iniziale?",
+    "error_generic": "Ops! Si è verificato un errore.",
+    "error_generic_retry": "Per favore riprova più tardi."
+}

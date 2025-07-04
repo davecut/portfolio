@@ -1,0 +1,39 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "hello_world": "Hello, {name} from en!",
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+
+    "home_hello": "Hi!",
+    "home_introduction": "I'm Davide,",
+    "home_job": "a Web Developer",
+    "home_description": "With a strong focus on clean architecture and UX, I turn ideas into robust, scalable, and reusable web solutions.",
+
+    "about_developer_title": "The Developer Behind the Code",
+    "about_developer_1": "Originally trained in foreign languages, I found my true passion in web development, where logic, creativity, and structure meet. I'm especially drawn to building scalable, maintainable, and reusable solutions with a focus on clean code and clear architecture.",
+    "about_developer_2": "I previously worked as a backend developer, mainly with PHP (Laravel), MySQL, and Docker. Outside of that role (and especially now) I enjoy diving into new technologies, exploring both frontend and backend stacks.",
+    "about_developer_3": "While my journey began on the backend, I've developed a growing interest in frontend development, experimenting with React, Vue, SvelteKit, and basic UI design in Figma on personal projects.",
+    "about_developer_4": "I constantly strive to improve, organizing code by responsibility, keeping functions focused, and automating wherever I can.",
+    "about_stack_title": "The Code Behind the Developer",
+
+    "contact_title": "Get in touch",
+    "contact_name": "Name",
+    "contact_email": "Email",
+    "contact_message": "Message",
+    "contact_send": "Send",
+
+    "projects_title": "My Projects",
+    "projects_portfolio_description": "My journey, my projects, my code",
+    "projects_evjf_description": "Visual web support for a bachelorette party game",
+    "projects_finflow_description": "Personal finance and budgeting tracker",
+    "projects_view_github": "View on GitHub",
+    "projects_status_wip": "In progress",
+    "projects_status_completed": "Completed",
+
+    "error_not_found": "Oops! I can't seem to find this page!",
+    "error_back_home": "Would you like to go back to the homepage?",
+    "error_generic": "Oops! Something went wrong.",
+    "error_generic_retry": "Please try again later."
+}
