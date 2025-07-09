@@ -1,0 +1,46 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "hello_world": "Hallo, {name} aus de!",
+    "home": "Startseite",
+    "projects": "Projekte",
+    "about": "Über mich",
+    "contact": "Kontakt",
+
+    "home_hello": "Hallo!",
+    "home_introduction": "Ich bin Davide,",
+    "home_job": "ein Webentwickler",
+    "home_description": "Mit einem starken Fokus auf sauberer Architektur und UX verwandle ich Ideen in robuste, skalierbare und wiederverwendbare Weblösungen.",
+
+    "about_developer_title": "Der Entwickler hinter dem Code",
+    "about_developer_1": "Ursprünglich in Fremdsprachen ausgebildet, habe ich meine wahre Leidenschaft in der Webentwicklung gefunden – dort, wo Logik, Kreativität und Struktur aufeinandertreffen. Besonders wichtig sind mir skalierbare, wartbare und wiederverwendbare Lösungen mit klarem Code und klarer Architektur.",
+    "about_developer_2": "Ich habe zuvor als Backend-Entwickler gearbeitet, hauptsächlich mit PHP (Laravel), MySQL und Docker. Abseits dieser Rolle (und besonders jetzt) beschäftige ich mich gerne mit neuen Technologien und erkunde sowohl Frontend- als auch Backend-Stacks.",
+    "about_developer_3": "Obwohl meine Reise im Backend begann, habe ich ein wachsendes Interesse an der Frontend-Entwicklung entwickelt. In persönlichen Projekten experimentiere ich mit React, Vue, SvelteKit und einfachem UI-Design in Figma.",
+    "about_developer_4": "Ich strebe ständig nach Verbesserung – ich organisiere Code nach Verantwortlichkeiten, halte Funktionen fokussiert und automatisiere, wo immer es möglich ist.",
+    "about_stack_title": "Der Code hinter dem Entwickler",
+
+    "contact_title": "Kontakt aufnehmen",
+    "contact_name": "Name",
+    "contact_email": "E-Mail",
+    "contact_object": "Betreff",
+    "contact_object_job": "Jobangebot",
+    "contact_object_freelance": "Freelance-Projekt",
+    "contact_object_collaboration": "Zusammenarbeit",
+    "contact_object_other": "Sonstiges",
+    "contact_message": "Nachricht",
+    "contact_send": "Senden",
+    "contact_message_waiting": "Nachricht wird gesendet...",
+    "contact_message_sent": "Deine Nachricht wurde gesendet!",
+
+    "projects_title": "Meine Projekte",
+    "projects_portfolio_description": "Mein Werdegang, meine Projekte, mein Code",
+    "projects_evjf_description": "Visuelle Webunterstützung für ein Junggesellinnenabschiedsspiel",
+    "projects_finflow_description": "Tracker für persönliche Finanzen und Budgetplanung",
+    "projects_view_github": "Auf GitHub ansehen",
+    "projects_status_wip": "In Arbeit",
+    "projects_status_completed": "Abgeschlossen",
+
+    "error_not_found": "Ups! Diese Seite konnte nicht gefunden werden!",
+    "error_back_home": "Möchtest du zur Startseite zurückkehren?",
+    "error_generic": "Ups! Etwas ist schiefgelaufen.",
+    "error_generic_retry": "Bitte versuche es später erneut."
+}
