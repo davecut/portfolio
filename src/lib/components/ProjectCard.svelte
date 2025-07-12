@@ -24,7 +24,9 @@
                     alt={project.label}
                 />
             </a>
-            <StatusTag {project} />
+            {#if project.status === m.projects_status_wip()}
+                <StatusTag {project} />
+            {/if}
         </div>
         <div class="project-text flex flex-col justify-center gap-y-1">
             <div class="main-title text-2xl font-semibold text-(--color-text-primary)">
