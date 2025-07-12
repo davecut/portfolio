@@ -30,6 +30,7 @@
     "contact_send": "Senden",
     "contact_message_waiting": "Nachricht wird gesendet...",
     "contact_message_sent": "Deine Nachricht wurde gesendet!",
+    "contact_fail": "E-Mail konnte nicht gesendet werden. Bitte versuche es später erneut.",
 
     "projects_title": "Meine Projekte",
     "projects_portfolio_description": "Mein Werdegang, meine Projekte, mein Code",
