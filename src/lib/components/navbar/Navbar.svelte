@@ -8,6 +8,7 @@
     import { page } from '$app/state';
     import ThemeImage from '../ui/ThemeImage.svelte';
 
+    let pathname = $derived.by(() => page.url.pathname);
     let open = $state(false);
 
     const navTabs = [
@@ -21,6 +22,11 @@
         open = !open;
         return goto(path);
     }
+
+    function isActive(current: string, target: string): boolean {
+        if (target === '/') return current === '/';
+        return current.startsWith(target);
+    }
 </script>
 
 <nav
@@ -33,12 +39,7 @@
         class="flex h-full cursor-pointer items-center justify-center object-contain"
         onclick={() => handleNavigation('/')}
     >
-        <ThemeImage
-            srcDark="/icons/logo-dark.png"
-            srcLight="/icons/logo-light.png"
-            alt="logo"
-            className="h-full w-full object-contain"
-        />
+        <ThemeImage name="logo" alt="logo" isThemed className="h-full w-full object-contain" />
     </button>
     <div
         class="flex w-full items-center justify-center gap-4 space-x-4 text-(--color-text-primary)"
@@ -46,8 +47,9 @@
         {#each navTabs as { label, path }}
             <a href={path} class="nav-link hidden text-xl">
                 <h2
-                    class={(page.url.pathname =
-                        path ?? 'text-shadow-[0_35px_35px_(--color-accent-cta))]')}
+                    class:font-bold={isActive(pathname, path)}
+                    class:text-(--color-accent-primary)={isActive(pathname, path)}
+                    class:text-shadow-2xs={isActive(pathname, path)}
                 >
                     {label}
                 </h2>
@@ -57,7 +59,7 @@
     <div class="flex items-center">
         <div class="switchers-container flex items-center gap-4 lg:gap-8">
             <div class="lang-switcher hidden gap-4">
-                <LangSwitcher />
+                <LangSwitcher isDropdown={true} />
             </div>
             <div class="theme-switcher hidden">
                 <ThemeSwitcher />
