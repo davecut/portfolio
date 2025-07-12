@@ -1,38 +1,36 @@
-# sv
+# Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is my personal developer portfolio built with [SvelteKit](https://kit.svelte.dev/) and TypeScript.  
+It showcases my technical skills and projects to potential recruiters, collaborators, or freelance clients.
 
-## Creating a project
+## 🎯 Purpose
 
-If you're seeing this, you've probably already done this step. Congrats!
+The main goal of this portfolio is to provide an overview of who I am as a developer:
 
-```bash
-# create a new project in the current directory
-npx sv create
+- Present my technical stack and skills
+- Showcase real-world projects I've built
+- Allow recruiters or clients to get in touch easily
 
-# create a new project in my-app
-npx sv create my-app
-```
+## ⚙️ Tech Stack
 
-## Developing
+- **Framework:** [SvelteKit](https://kit.svelte.dev/)
+- **Language:** TypeScript
+- **Form Handling:** [Resend](https://resend.com/) for email delivery
+- **Validation:** [Zod](https://zod.dev/) for contact form input validation
+- **Deployment:** [Vercel](https://vercel.com/)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## ✨ Features
 
-```bash
-npm run dev
+- 🌙 **Dark Mode by Default** (with light mode toggle)
+- 🌐 **Multilingual Support**: French, English, Italian, German
+- 📬 **Contact Form**: Sends messages directly to my email via Resend
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 🛡️ License
 
-## Building
+This codebase is not open source and is intended for personal use only.  
+Please do not reuse or redistribute without permission.
 
-To create a production version of your app:
+## 📬 Contact
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+You can contact me directly through the contact form on the site.  
+Messages go straight to my personal email via Resend.
