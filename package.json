@@ -34,6 +34,8 @@
     },
     "dependencies": {
         "@inlang/paraglide-js": "^2.0.0",
+        "@vercel/analytics": "^1.5.0",
+        "@vercel/speed-insights": "^1.2.0",
         "resend": "^4.6.0",
         "zod": "^3.25.76"
     }
