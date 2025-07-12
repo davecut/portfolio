@@ -1,3 +1,4 @@
+import { getGithubProjectUrl } from '$lib/config/github';
 import { m } from '$lib/paraglide/messages';
 
 export const projects = {
@@ -7,7 +8,7 @@ export const projects = {
         image: './projects/portfolio.png',
         stack: ['svelte', 'typescript'],
         link: '#',
-        github_link: '',
+        github_link: getGithubProjectUrl('portfolio'),
         status: m.projects_status_wip(),
     },
     evjf: {
@@ -16,16 +17,7 @@ export const projects = {
         image: './projects/evjf.png',
         stack: ['svelte', 'typescript'],
         link: 'https://evjf-indol.vercel.app/',
-        github_link: 'https://github.com/davecut/EVJF',
+        github_link: getGithubProjectUrl('EVJF'),
         status: m.projects_status_completed(),
     },
-    // finflow: {
-    //     label: 'FinFlow',
-    //     description: m.projects_finflow_description(),
-    //     image: '',
-    //     stack: ['expo', 'laravel', 'mysql'],
-    //     link: '#',
-    //     github_link: 'https://github.com/davecut/finflow-api',
-    //     status: m.projects_status_wip(),
-    // },
 };
