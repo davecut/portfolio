@@ -1,21 +1,26 @@
-<script>
+<script lang="ts">
+    import { SOCIAL_NETWORKS } from '$lib/data/socials';
     import ThemeImage from './ThemeImage.svelte';
+
+    export let networks: string[] = [];
 </script>
 
-<div class="social-icons mt-5 mr-5 flex h-10 w-20 items-center justify-center gap-3">
-    <a href="https://www.linkedin.com/" class="linkedin z-0" target="_blank">
-        <img
-            src="./icons/linkedin.png"
-            alt="linkedin"
-            class="linkedin-icon w-7 cursor-pointer transition-all hover:scale-125"
-        />
-    </a>
-    <a href="https://www.github.com/" class="github z-0" target="_blank">
-        <ThemeImage
-            srcDark="/icons/github-dark.png"
-            srcLight="/icons/github-light.png"
-            alt="GitHub"
-            className="github-icon w-7 cursor-pointer hover:scale-125 transition-all"
-        />
-    </a>
+<div class="social-icons z-0 mt-5 mr-5 flex h-10 w-20 items-center justify-center gap-3">
+    {#each networks as key}
+        {#if SOCIAL_NETWORKS[key]}
+            <a
+                href={SOCIAL_NETWORKS[key].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={key}
+            >
+                <ThemeImage
+                    name={key}
+                    alt={key}
+                    isThemed={SOCIAL_NETWORKS[key].isThemed ?? false}
+                    className="w-7 cursor-pointer transition-transform hover:scale-125"
+                />
+            </a>
+        {/if}
+    {/each}
 </div>
